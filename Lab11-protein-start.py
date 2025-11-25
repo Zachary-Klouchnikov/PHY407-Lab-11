@@ -43,7 +43,7 @@ dpi = 150
 
 eps = -5.0  # interaction energy
 N = 30  # length of protein
-T = 1.5  # temperature for Monte Carlo
+T = 5.0  # temperature for Monte Carlo
 n = int(1e5)  # number of Monte Carlo steps
 
 energy_array = np.zeros(n)  # initialize array to hold energy
